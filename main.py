@@ -25,11 +25,11 @@ selected_room = st.sidebar.selectbox(
     options=['Standard', 'Deluxe', 'Suite', 'Family', 'Superior']
 )
 
-st.sidebar.markdown("### Live Capacity Configuration")
-allocated_capacity = st.sidebar.slider(
-    "Physical Operational Capacity",
-    min_value=10, max_value=250, value=100, step=5
-)
+# st.sidebar.markdown("### Live Capacity Configuration")
+# allocated_capacity = st.sidebar.slider(
+#     "Physical Operational Capacity",
+#     min_value=10, max_value=250, value=100, step=5
+# )
 
 st.sidebar.markdown("---")
 st.sidebar.info("💡 Adjust variables to trigger automated EMSR-b pricing limit variations in real time.")
