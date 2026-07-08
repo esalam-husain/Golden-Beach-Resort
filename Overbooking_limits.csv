@@ -1,0 +1,4 @@
+Risk_Level,Physical_Capacity,Cancellation_Rate,Safe_Overbooking_Limit_Binomial,Expected_ShowUps
+1%,437,15%,493,419.1
+5%,437,15%,499,424.1
+10%,437,15%,502,426.7
