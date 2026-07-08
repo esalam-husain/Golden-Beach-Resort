@@ -272,7 +272,7 @@ with tab_emsr:
 
     st.header("Overbooking")
     risk_level = st.selectbox(
-        "Fare Class",
+        "Risk Level",
         (overbooking["Risk_Level"].unique())
     )
 
